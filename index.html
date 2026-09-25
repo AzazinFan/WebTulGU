@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальный Блог - Новости, Обзоры, Плейлисты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Music Blog</h1>
+            </div>
+            <nav>
+                <ul class="main-menu">
+                    <li class="dropdown">
+                        <a href="#catalog">Каталог</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="news.html">Новости</a>
+                                <ul>
+                                    <li><a href="news.html#hip-hop">Хип-хоп</a></li>
+                                    <li><a href="news.html#rock">Рок</a></li>
+                                    <li><a href="news.html#pop">Поп</a></li>
+                                    <li><a href="news.html#electronic">Электронная</a></li>
+                                    <li><a href="news.html#indie">Инди</a></li>
+                                    <li><a href="news.html#releases">Новые релизы</a></li>
+                                    <li><a href="news.html#charts">Чарты</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="reviews.html">Обзоры</a>
+                                <ul>
+                                    <li><a href="reviews.html#albums">Альбомы</a></li>
+                                    <li><a href="reviews.html#tracks">Треки</a></li>
+                                    <li><a href="reviews.html#artists">Артисты</a></li>
+                                    <li><a href="reviews.html#by-rating">По рейтингу</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="playlists.html">Плейлисты</a>
+                                <ul>
+                                    <li><a href="playlists.html#thematic">Тематические</a></li>
+                                    <li><a href="playlists.html#by-genre">По жанрам</a></li>
+                                    <li><a href="playlists.html#by-mood">По настроению</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="interviews.html">Интервью</a></li>
+                    <li><a href="festivals.html">Фестивали</a></li>
+                    <li><a href="genres.html">Жанры</a></li>
+                    <li class="dropdown">
+                        <a href="#more">Еще</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="podcasts.html">Подкасты</a></li>
+                            <li><a href="awards.html">Награды</a></li>
+                            <li><a href="history.html">История музыки</a></li>
+                            <li><a href="community.html">Сообщество</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Добро пожаловать в мир музыки</h2>
+                <p>Новости, обзоры альбомов, интервью с артистами и лучшие плейлисты</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Поиск по сайту...">
+                </div>
+            </div>
+        </section>
+
+        <section class="featured">
+            <div class="container">
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">1250+</div>
+                        <div class="stat-label">Статей</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">320</div>
+                        <div class="stat-label">Обзоров альбомов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">150</div>
+                        <div class="stat-label">Интервью</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">85</div>
+                        <div class="stat-label">Плейлистов</div>
+                    </div>
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="main-content">
+                        <h2>Избранное</h2>
+                        <div class="grid">
+                            <article class="card">
+                                <div class="card-image"></div>
+                                <div class="card-content">
+                                    <div class="article-meta">
+                                        <span>25 сентября 2026</span>
+                                        <span>Автор: Мария Смирнова</span>
+                                    </div>
+                                    <span class="category">Новости</span>
+                                    <h3>Новые релизы недели</h3>
+                                    <p>Обзор самых ожидаемых альбомов, которые вышли на этой неделе. Детальный анализ новинок от ведущих артистов.</p>
+                                    <div>
+                                        <span class="tag">Хип-хоп</span>
+                                        <span class="tag">Релизы</span>
+                                    </div>
+                                    <a href="news.html#releases" class="read-more">Читать далее</a>
+                                </div>
+                            </article>
+
+                            <article class="card">
+                                <div class="card-image"></div>
+                                <div class="card-content">
+                                    <div class="article-meta">
+                                        <span>24 сентября 2026</span>
+                                        <span>Автор: Александр Петров</span>
+                                    </div>
+                                    <span class="category">Обзоры</span>
+                                    <h3>Альбом месяца: рейтинг 9.2/10</h3>
+                                    <p>Детальный разбор лучшего альбома текущего месяца с рейтингом и анализом каждого трека. Почему этот релиз важен.</p>
+                                    <div>
+                                        <span class="tag">Рок</span>
+                                        <span class="tag">Высокие оценки</span>
+                                    </div>
+                                    <a href="reviews.html#albums" class="read-more">Читать далее</a>
+                                </div>
+                            </article>
+
+                            <article class="card">
+                                <div class="card-image"></div>
+                                <div class="card-content">
+                                    <div class="article-meta">
+                                        <span>23 сентября 2026</span>
+                                        <span>Автор: Елена Васильева</span>
+                                    </div>
+                                    <span class="category">Плейлисты</span>
+                                    <h3>Лучшее за 2025 год</h3>
+                                    <p>Подборка лучших треков года в различных жанрах. Музыка, которая определила 2025 год.</p>
+                                    <div>
+                                        <span class="tag">Подборки</span>
+                                        <span class="tag">2025</span>
+                                    </div>
+                                    <a href="playlists.html#thematic" class="read-more">Читать далее</a>
+                                </div>
+                            </article>
+
+                            <article class="card">
+                                <div class="card-image"></div>
+                                <div class="card-content">
+                                    <div class="article-meta">
+                                        <span>22 сентября 2026</span>
+                                        <span>Автор: Дмитрий Козлов</span>
+                                    </div>
+                                    <span class="category">Интервью</span>
+                                    <h3>Эксклюзив: разговор с продюсером</h3>
+                                    <p>Подробное интервью с одним из самых влиятельных продюсеров электронной музыки о творческом процессе.</p>
+                                    <div>
+                                        <span class="tag">Электронная</span>
+                                        <span class="tag">Интервью</span>
+                                    </div>
+                                    <a href="news.html" class="read-more">Читать далее</a>
+                                </div>
+                            </article>
+
+                            <article class="card">
+                                <div class="card-image"></div>
+                                <div class="card-content">
+                                    <div class="article-meta">
+                                        <span>21 сентября 2026</span>
+                                        <span>Автор: Иван Соколов</span>
+                                    </div>
+                                    <span class="category">Обзоры</span>
+                                    <h3>Джазовый фестиваль: отчет</h3>
+                                    <p>Полный отчет с крупнейшего джазового фестиваля года. Лучшие выступления и открытия.</p>
+                                    <div>
+                                        <span class="tag">Джаз</span>
+                                        <span class="tag">Концерты</span>
+                                    </div>
+                                    <a href="reviews.html" class="read-more">Читать далее</a>
+                                </div>
+                            </article>
+
+                            <article class="card">
+                                <div class="card-image"></div>
+                                <div class="card-content">
+                                    <div class="article-meta">
+                                        <span>20 сентября 2026</span>
+                                        <span>Автор: Анна Морозова</span>
+                                    </div>
+                                    <span class="category">Новости</span>
+                                    <h3>Топ-100: изменения в чартах</h3>
+                                    <p>Анализ недельных изменений в музыкальных чартах. Кто поднялся, кто упал, и почему.</p>
+                                    <div>
+                                        <span class="tag">Чарты</span>
+                                        <span class="tag">Аналитика</span>
+                                    </div>
+                                    <a href="news.html#charts" class="read-more">Читать далее</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <aside class="sidebar">
+                        <div>
+                            <h3>Популярное</h3>
+                            <ul>
+                                <li><a href="reviews.html">Лучшие альбомы сентября</a></li>
+                                <li><a href="news.html">Воссоединение легендарной группы</a></li>
+                                <li><a href="playlists.html">Плейлист для тренировок</a></li>
+                                <li><a href="reviews.html">Обзор: прорыв года</a></li>
+                                <li><a href="news.html">Анонс мирового турне</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar" style="margin-top: 2rem;">
+                            <h3>Категории</h3>
+                            <ul>
+                                <li><a href="news.html#hip-hop">Хип-хоп (180)</a></li>
+                                <li><a href="news.html#rock">Рок (210)</a></li>
+                                <li><a href="news.html#electronic">Электронная (145)</a></li>
+                                <li><a href="news.html#pop">Поп (190)</a></li>
+                                <li><a href="news.html#indie">Инди (160)</a></li>
+                                <li><a href="news.html#jazz">Джаз (95)</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar" style="margin-top: 2rem;">
+                            <h3>Архив</h3>
+                            <ul>
+                                <li><a href="#">Сентябрь 2026</a></li>
+                                <li><a href="#">Август 2026</a></li>
+                                <li><a href="#">Июль 2026</a></li>
+                                <li><a href="#">Июнь 2026</a></li>
+                                <li><a href="#">Май 2026</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="genres">
+            <div class="container">
+                <h2>Популярные жанры</h2>
+                <div class="genres-grid">
+                    <a href="news.html#hip-hop" class="genre-card">
+                        <h3>Хип-хоп</h3>
+                    </a>
+                    <a href="news.html#rock" class="genre-card">
+                        <h3>Рок</h3>
+                    </a>
+                    <a href="news.html#pop" class="genre-card">
+                        <h3>Поп</h3>
+                    </a>
+                    <a href="news.html#electronic" class="genre-card">
+                        <h3>Электронная</h3>
+                    </a>
+                    <a href="news.html#indie" class="genre-card">
+                        <h3>Инди</h3>
+                    </a>
+                    <a href="news.html#jazz" class="genre-card">
+                        <h3>Джаз</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Music Blog</h4>
+                    <p>Ваш источник музыкальных новостей и обзоров</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="reviews.html">Обзоры</a></li>
+                        <li><a href="playlists.html">Плейлисты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>О проекте</h4>
+                    <ul>
+                        <li><a href="about.html#history">История блога</a></li>
+                        <li><a href="about.html#team">Команда</a></li>
+                        <li><a href="about.html#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2026 Music Blog. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
